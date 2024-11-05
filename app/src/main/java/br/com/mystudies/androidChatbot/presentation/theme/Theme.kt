@@ -1,6 +1,5 @@
-package br.com.mystudies.androidChatbot.ui.theme
+package br.com.mystudies.androidChatbot.presentation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -52,7 +51,7 @@ fun AndroidChatbotTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = MyTypography(),
         content = content
     )
 }

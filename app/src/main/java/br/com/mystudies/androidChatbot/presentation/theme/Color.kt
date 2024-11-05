@@ -1,4 +1,4 @@
-package br.com.mystudies.androidChatbot.ui.theme
+package br.com.mystudies.androidChatbot.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
